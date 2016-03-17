@@ -1,3 +1,4 @@
+package shape;
 /*
     Job of Rectangle :-
     Rectangle should calculate area and perimeter
