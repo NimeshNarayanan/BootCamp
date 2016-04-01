@@ -23,9 +23,9 @@ public class Chance {
         return create(this.chance * chance.chance);
     }
 
-    public Percentage covertToPercentage(){
-        return Percentage.create(chance, (double) 1);
-    }
+//    public Percentage covertToPercentage(){
+//        return Percentage.create(chance, (double) 1);
+//    }
 
     @Override
     public boolean equals(Object o) {

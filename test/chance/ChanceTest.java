@@ -43,7 +43,6 @@ public class ChanceTest {
         Chance chance = Chance.create(0.75);
         Chance chance1 = Chance.create(0.25);
         Chance expected = Chance.create(0.1875);
-        assertEquals("18.75%",chance.and(chance1).covertToPercentage().toString());
-        System.out.println(expected.covertToPercentage());
+        assertEquals(expected,chance.and(chance1));
     }
 }
